@@ -61,7 +61,7 @@ const login = async (req, res) => {
     }
 };
 
-// Fetch All Users
+// Fetch All Users List
 const getAllUsers = async (req, res) => {
     try {
         const users = await User.find({}, 'username email'); // Fetch only username and email
