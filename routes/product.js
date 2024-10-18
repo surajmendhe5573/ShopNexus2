@@ -27,9 +27,10 @@ router.put('/:productId/edit', upload.array('images', 4), productController.edit
 router.delete('/:productId/remove', productController.removeProduct);
 router.put('/:productId/restore', productController.restoreProduct);
 router.delete('/:productId/delete', productController.deleteProduct);
-router.get('/removed', productController.getRemovedProducts);
+router.get('/all/removed', productController.getRemovedProducts);
 router.get('/:productName/images', productController.getProductImages);
 router.patch('/:productId/display', productController.updateDisplayStatus);
 router.post('/:productId/toggle-like', authenticateToken, productController.toggleLikeProduct); // Like a product
 
 module.exports = router;
+  
