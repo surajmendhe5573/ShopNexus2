@@ -1,5 +1,4 @@
-require('dotenv').config(); // Load environment variables from .env file
-
+require('dotenv').config(); 
 if (process.env.NODE_ENV === 'production') {
     module.exports = require('./production.constant');
 } else if (process.env.NODE_ENV === 'development') {
