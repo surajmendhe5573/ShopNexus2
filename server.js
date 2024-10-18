@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
 
 // User routes
 app.use('/api/users', require('./routes/user'));
+app.use('/api/products', require('./routes/product'));
 
 // Start the server and log the port and environment being used
 app.listen(Port, () => {
