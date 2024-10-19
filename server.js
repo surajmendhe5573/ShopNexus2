@@ -22,6 +22,7 @@ app.use('/api/products', require('./routes/product'));
 app.use('/api/carts', require('./routes/cart')); 
 app.use('/api/reviews', require('./routes/review'));
 app.use('/api/shipping', require('./routes/shipping'));
+app.use('/api/coupons', require('./routes/coupon'));
 
 // Start the server and log the port and environment being used
 app.listen(Port, () => {
