@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 app.use('/api/users', require('./routes/user'));
 app.use('/api/products', require('./routes/product'));
 app.use('/api/carts', require('./routes/cart')); 
+app.use('/api/reviews', require('./routes/review'));
 
 // Start the server and log the port and environment being used
 app.listen(Port, () => {
