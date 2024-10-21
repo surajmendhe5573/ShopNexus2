@@ -4,7 +4,6 @@
 
 ## Features
 
-
 ## User API
 
 1. **Sign Up**
