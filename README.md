@@ -53,3 +53,50 @@
 ## Shipping API
 
 1. **Create customer shipping details**
+
+## Installation and Setup
+- Clone the repository
+```
+git clone https://github.com/surajmendhe5573/ShopNexus2.git
+```
+- Install dependencies
+```
+cd <ShopNexus>
+npm install
+```
+- Build and run the project
+```
+npm start
+```
+
+## Environment Variables
+
+Create a `.env` file in the root directory of the project with the following variables:
+
+```
+
+MONGODB_URI=mongodb://localhost:27017/defaultdb
+PORT=8000
+
+# Node Environment
+NODE_ENV=local
+
+# JWT Secrets
+JWT_AUTH_SECRET=your_jwt_auth_secret
+JWT_REFRESH_SECRET=your_jwt_refresh_secret
+
+# Email credentials
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+
+```
+
+## 🚀 About Me
+I'm a Backend developer...
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/surajmendhe5573)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suraj-mendhe-569879233/?original_referer=https%3A%2F%2Fsearch%2Eyahoo%2Ecom%2F&originalSubdomain=in)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
