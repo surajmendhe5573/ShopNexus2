@@ -89,7 +89,6 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
 
 ```
-
 ## 🚀 About Me
 I'm a Backend developer...
 
