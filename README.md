@@ -1,4 +1,4 @@
-# ShopNexus Backend API
+# ShopNexus Backend APIs
 
 **ShopNexus** is a backend service for an e-commerce platform that provides essential APIs for managing users, products, reviews, shopping carts, coupon codes, and notifications via email.
 
