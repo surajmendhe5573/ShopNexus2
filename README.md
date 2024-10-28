@@ -50,6 +50,7 @@
 
 1. **Add item to cart**
 2. **Retrieve cart items**
+3. **Remove product from cart**
 
 ## Coupon Code API
 
