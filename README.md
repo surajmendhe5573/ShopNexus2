@@ -2,6 +2,20 @@
 
 **ShopNexus** is a backend service for an e-commerce platform that provides essential APIs to manage users, products, reviews, shopping carts, coupon codes, and notifications via email. Built with scalability and extensibility in mind, ShopNexus offers a robust foundation for e-commerce operations.
 
+### Table of Contents
+1. [Features](#features)
+2. [User API](#user-api)
+3. [Product API](#product-api)
+4. [Review API](#review-api)
+5. [Cart API](#cart-api)
+6. [Coupon Code API](#coupon-code-api)
+7. [Contact API](#contact-api)
+8. [Shipping API](#shipping-api)
+9. [Installation and Setup](#installation-and-setup)
+10. [Environment Variables](#environment-variables)
+11. [About Me](#about-me)
+12. [Links](#links)
+
 ## Features
 
 ## User API
