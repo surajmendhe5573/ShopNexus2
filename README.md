@@ -11,10 +11,11 @@
 6. [Coupon Code API](#coupon-code-api)
 7. [Contact API](#contact-api)
 8. [Shipping API](#shipping-api)
-9. [Installation and Setup](#installation-and-setup)
-10. [Environment Variables](#environment-variables)
-11. [About Me](#about-me)
-12. [Links](#links)
+9. [Wishlist API](#Wishlist-api)
+10. [Installation and Setup](#installation-and-setup)
+11. [Environment Variables](#environment-variables)
+12. [About Me](#about-me)
+13. [Links](#links)
 
 ## Features
 
