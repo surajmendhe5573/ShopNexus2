@@ -71,8 +71,8 @@
 
 ## Wishlist API
 1. **Add product to Wishlist**
-2. **Retrieve all Wishlist products**
-3. **Remove product from Wishlist.s**
+2. **Retrieve Wishlist products**
+3. **Remove product from Wishlist**
 
 ## Installation and Setup
 - Clone the repository
