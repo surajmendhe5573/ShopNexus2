@@ -69,6 +69,11 @@
 
 1. **Create customer shipping details**
 
+## Wishlist API
+1. **Add product to Wishlist**
+2. **Retrieve all Wishlist products**
+3. **Remove product from Wishlist.s**
+
 ## Installation and Setup
 - Clone the repository
 ```
