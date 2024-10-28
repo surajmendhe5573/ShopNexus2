@@ -70,9 +70,9 @@
 1. **Create customer shipping details**
 
 ## Wishlist API
-1. **Add product to Wishlist**
-2. **Retrieve Wishlist products**
-3. **Remove product from Wishlist**
+1. **Allows users to add products they are interested in purchasing later**
+2. **Gets all items a user has saved in their wishlist**
+3. **Lets users remove items from their wishlist**
 
 ## Installation and Setup
 - Clone the repository
