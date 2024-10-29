@@ -77,9 +77,9 @@
 
 ## Order API
 1. **Users can place an order for items in their cart**
-2. **Users can view their order histor**
-3. **Allows users to cancel an order before it ships**
-3. **Allows users to track the status of their order in real time (e.g., processed, shipped, delivered).**
+2. **Users can view their order history**
+3. **Allows users to cancel an order**
+3. **Allows users to track the status of their order in real time (e.g., processed, shipped, delivered)**
 
 ## Installation and Setup
 - Clone the repository
