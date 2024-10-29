@@ -12,10 +12,11 @@
 7. [Contact API](#contact-api)
 8. [Shipping API](#shipping-api)
 9. [Wishlist API](#Wishlist-api)
-10. [Installation and Setup](#installation-and-setup)
-11. [Environment Variables](#environment-variables)
-12. [About Me](#about-me)
-13. [Links](#links)
+10. [Order API](#Order-api)
+11. [Installation and Setup](#installation-and-setup)
+12. [Environment Variables](#environment-variables)
+13. [About Me](#about-me)
+14. [Links](#links)
 
 ## Features
 
@@ -73,6 +74,12 @@
 1. **Allows users to add products they are interested in purchasing later**
 2. **Gets all items a user has saved in their wishlist**
 3. **Lets users remove items from their wishlist**
+
+## Order API
+1. **Users can place an order for items in their cart**
+2. **Users can view their order histor**
+3. **Allows users to cancel an order before it ships**
+3. **Allows users to track the status of their order in real time (e.g., processed, shipped, delivered).**
 
 ## Installation and Setup
 - Clone the repository
