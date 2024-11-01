@@ -84,7 +84,9 @@
  
 ## Payment API
 1. **Handles the initiation of a payment transaction (can integrate with payment gateways like PayPal)**
-2. **Verifies payment status for secure transactions**
+2. **Creates a new PayPal order and returns an approval URL for the user to complete the payment**
+3. **Captures the payment for a given order ID once the user has approved it on PayPal**
+4. **Verifies the status of a PayPal payment to check if it has been completed**
 
 ## Installation and Setup
 - Clone the repository
