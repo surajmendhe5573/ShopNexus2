@@ -83,7 +83,7 @@
 4. **Allows users to track the status of their order in real time (e.g., processed, shipped, delivered)**
  
 ## Payment API
-1. **Handles the initiation of a payment transaction (can integrate with payment gateways like PayPal).**
+1. **Handles the initiation of a payment transaction (can integrate with payment gateways like PayPal)**
 2. **Verifies payment status for secure transactions**
 
 ## Installation and Setup
