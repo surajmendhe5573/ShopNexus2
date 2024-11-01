@@ -121,6 +121,11 @@ JWT_REFRESH_SECRET=your_jwt_refresh_secret
 EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
 
+# PayPal credentials (Replace with actual credentials in a secure location)
+PAYPAL_CLIENT_ID=your_paypal_client_id_here
+PAYPAL_CLIENT_SECRET=your_paypal_client_secret_here
+PAYPAL_ENVIRONMENT=sandbox
+
 ```
 
 ## 🚀 About Me
