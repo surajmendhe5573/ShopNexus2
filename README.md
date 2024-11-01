@@ -23,24 +23,24 @@
 
 ## User API
 
-1. **Sign Up**
-2. **Sign In**
+1. **Sign Up:**  Allow users to create an account.
+2. **Sign In:** Enable users to log in to their accounts.
 
 ## Product API
 
-1. **Add a new product with image uploads**
-2. **Retrieve all products**
-3. **Retrieve a single product by its ID**
-4. **Add a variant to an existing product with image uploads**
-5. **Retrieve all variants of a product by its name**
-6. **Apply a discount to a product**
-7. **Edit a product with image uploads**
-8. **Soft delete (remove) a product**
-9. **Restore a removed product**
-10. **Permanently delete a product**
-11. **Retrieve all removed (soft-deleted) products**
-12. **Update the display status of a product on the homepage**
-13. **Retrieve images of a product by its name**
+1. **Add a new product:** Allows for adding a new product along with images.
+2. **Retrieve all products:**  Fetch a list of all available products.
+3. **Retrieve a single product:** Get details of a product using its unique ID.
+4. **Add a variant:** Add a new variant (e.g., size, price) to an existing product, including images.
+5. **Retrieve all variants:** List all variants associated with a specific product name.
+6. **Apply  discount:** Apply a discount percentage to a product's price.
+7. **Edit a product:** Update product details, with the option to upload new images.
+8. **Soft delete product:** Temporarily remove a product without permanent deletion.
+9. **Restore removed product:** Restore a product that was previously soft-deleted.
+10. **Permanently delete product:** Completely delete a product from the database.
+11. **Retrieve all soft-deleted products:** Get a list of all products that have been soft-deleted.
+12. **Display status on homepage:** Control whether a product is visible on the homepage.
+13. **Retrieve images of a product:** Retrieve all images of a product by its namee.
 
 ## Review API
 
@@ -134,6 +134,7 @@ PAYPAL_ENVIRONMENT=sandbox
 
 ## 🚀 About Me
 I'm a Backend developer...
+
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/surajmendhe5573)
