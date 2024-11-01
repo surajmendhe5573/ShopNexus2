@@ -1,6 +1,7 @@
 const express = require('express');
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 const constant = require('./config/keys');
+const bodyParser = require('body-parser');
 
 const app = express();
 
@@ -9,6 +10,7 @@ const env = process.env.NODE_ENV || constant.NODE_ENV || 'development';
 
 // Middleware to parse incoming JSON requests
 app.use(express.json());
+app.use(bodyParser.json());
 
 require('./db/DB'); 
 
@@ -26,6 +28,7 @@ app.use('/api/coupons', require('./routes/coupon'));
 app.use('/api/contacts', require('./routes/contactMail'));
 app.use('/api/wishlists', require('./routes/wishlist'));
 app.use('/api/orders', require('./routes/order'));
+app.use('/api/paypal', require('./routes/payment'));
 
 // Start the server and log the port and environment being used
 app.listen(Port, () => {
