@@ -13,10 +13,11 @@
 8. [Shipping API](#shipping-api)
 9. [Wishlist API](#Wishlist-api)
 10. [Order API](#Order-api)
-11. [Installation and Setup](#installation-and-setup)
-12. [Environment Variables](#environment-variables)
-13. [About Me](#about-me)
-14. [Links](#links)
+11. [Payment API](#Payment-api)
+12. [Installation and Setup](#installation-and-setup)
+13. [Environment Variables](#environment-variables)
+14. [About Me](#about-me)
+15. [Links](#links)
 
 ## Features
 
@@ -79,7 +80,11 @@
 1. **Users can place an order for items in their cart**
 2. **Users can view their order history**
 3. **Allows users to cancel an order**
-3. **Allows users to track the status of their order in real time (e.g., processed, shipped, delivered)**
+4. **Allows users to track the status of their order in real time (e.g., processed, shipped, delivered)**
+ 
+## Payment API
+1. **Handles the initiation of a payment transaction (can integrate with payment gateways like PayPal).**
+2. **Verifies payment status for secure transactions**
 
 ## Installation and Setup
 - Clone the repository
